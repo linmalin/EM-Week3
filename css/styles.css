@@ -1532,7 +1532,6 @@ a .icon-flip-vertical:before {
   display: block;
   cursor: pointer;
   top: 190px;
-  font-size: 1em;
   background-color: ;
   color: #707070;
   text-decoration: none;
@@ -1544,7 +1543,7 @@ a .icon-flip-vertical:before {
   left: 10px;
 }
 .slidesjs-next {
-  left: 940px;
+  left: 910px;
 }
 .slidesjs-next:hover,
 .slidesjs-previous:hover {

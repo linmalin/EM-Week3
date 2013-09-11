@@ -1517,60 +1517,30 @@ a .icon-flip-vertical:before {
 .icon-renren:before {
   content: "\f18b";
 }
-.container {
-  background-color: #ebebeb;
-  width: 960px;
-  max-height: 800px;
-  margin: 0 auto;
-  position: relative;
-}
 .slidesjs-next,
 .slidesjs-previous {
   width: 60px;
   height: 60px;
-  font-size: 3em;
-  display: block;
-  cursor: pointer;
-  top: 190px;
-  font-size: 1em;
-  background-color: ;
-  color: #707070;
+  background-color: #ebebeb;
+  color: #fff;
   text-decoration: none;
   position: absolute;
+  margin-right: 20px;
   z-index: 100;
-  margin-right: ;
-}
-.slidesjs-previous {
-  left: 10px;
-}
-.slidesjs-next {
-  left: 940px;
-}
-.slidesjs-next:hover,
-.slidesjs-previous:hover {
-  color: #fff;
+  top: 190px;
 }
 .slidesjs-pagination {
   list-style: none;
-  width: 960px;
-  background-color: #fff;
-  position: relative;
-  top: -100px;
 }
 .slidesjs-pagination-item {
   float: left;
   display: inline-block;
   margin-right: 10px;
-  top: 250px;
 }
 .slidesjs-pagination-item a {
   text-decoration: none;
-  font-size: .5em;
-  color: #fff;
-}
-.slidesjs-pagination-item a.hover {
-  color: #A0a0a0;
+  font-size: ;
 }
 .slidesjs-pagination-item a.active {
-  color: #A0A0A0;
+  color: #fff000;
 }

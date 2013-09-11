@@ -1,28 +1,67 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+.container{
+	background-color: #ebebeb;
+	width:960px;
+	max-height:800px;
+	margin: 0 auto;
+	position: relative;
 
-@font-sans-family: 'PT Sans', sans-serif;
 
-body{
-	font-family: @font-sans-family;
 }
+.slidesjs-next,.slidesjs-previous{
+	width: 60px;
+	height:60px;
+	font-size:3em;	
+	display: block;
+	cursor: pointer;
+	top:190px;
+	font-size: 1em;
+	background-color:;
+	color:#707070;
+	text-decoration:none;
+	position:absolute;
+	z-index:100;
+	margin-right:;
+	
 
-.body-shadow{
-	.text-shadow();
-	font-weight: 700;
+}
+.slidesjs-previous{
+	left:10px;
+
+}
+.slidesjs-next{
+	left:940px;
+}
+.slidesjs-next:hover,.slidesjs-previous:hover{
 	color:#fff;
 }
 
-h1{
-	.body-shadow;
-	font-weight: 700;
-}
+.slidesjs-pagination{
+	list-style:none;
+	width:960px;
+	background-color:#fff;
+	position: relative;
+	top:-100px;
 
-h2{
-	.body-shadow;
-	font-weight: 700;
-	font-size: 20px;
-}
 
-p{
-	.body-shadow;
+}
+.slidesjs-pagination-item{
+	float:left;
+	display: inline-block;
+	margin-right:10px;
+	top:250px;
+	
+
+}
+.slidesjs-pagination-item a{
+	text-decoration: none;
+	font-size:.5em;
+	color:#fff;
+
+
+}
+.slidesjs-pagination-item a.hover{
+	color:#A0a0a0;
+}
+.slidesjs-pagination-item a.active{
+	color: #A0A0A0;
 }

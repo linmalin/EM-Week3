@@ -1,0 +1,33 @@
+.slidesjs-next,
+.slidesjs-previous {
+  width: 60px;
+  height: 60px;
+  display: block;
+  cursor: pointer;
+  top: 190px;
+  font-size: 3em;
+  background-color: ;
+  color: #ebebeb;
+  text-decoration: none;
+  position: absolute;
+  margin-right: 10px;
+  z-index: 100;
+}
+.slidesjs-pagination {
+  list-style: none;
+  width: 960px;
+  background-color: #ff0000;
+  position: relative;
+}
+.slidesjs-pagination-item {
+  float: left;
+  display: inline-block;
+  margin-right: 10px;
+}
+.slidesjs-pagination-item a {
+  text-decoration: none;
+  font-size: ;
+}
+.slidesjs-pagination-item a.active {
+  color: #fff000;
+}
